@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Roboto', sans-serif; }
-    .primary-blue { background-color: #c20000; }
+    .primary-blue-dark { background-color: #c20000; }
     .primary-red-dark { background-color: #a50000; }
     .category-card:hover { transform: scale(1.02); transition: transform 0.2s ease-in-out; }
   </style>
