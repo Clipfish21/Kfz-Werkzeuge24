@@ -52,7 +52,6 @@
         </div>
     </footer>
 </body>
-</html>
 /* Allgemeine Einstellungen */
 * {
     margin: 0;
