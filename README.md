@@ -38,7 +38,7 @@
     <!-- Hero -->
     <section id="start" class="text-center py-20">
       <h2 class="text-4xl font-bold mb-4">Professionelle Kfz-Teile & Werkzeuge</h2>
-      <p class="mb-6">Top Qualität für Werkstatt und Hobby – inspiriert vom Würth Design.</p>
+      <p class="mb-6">Top Qualität für Werkstatt und Hobby.</p>
       <a href="#produkte" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Jetzt entdecken</a>
     </section>
 
