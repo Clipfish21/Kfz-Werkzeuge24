@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KFZ Teile Shop</title>
+  <title>KFZ Teile Shop – Inspiriert von Würth</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Roboto', sans-serif; }
-    .primary-red { background-color: #c20000; }
-    .primary-red-dark { background-color: #a50000; }
+    .primary-blue { background-color: #004c97; }
+    .primary-blue-dark { background-color: #003b78; }
     .category-card:hover { transform: scale(1.02); transition: transform 0.2s ease-in-out; }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
   <!-- Header -->
-  <header class="primary-blue-dark text-white shadow-md sticky top-0 z-50">
+  <header class="primary-blue text-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
       <h1 class="text-2xl font-bold uppercase">KFZ Teile Shop</h1>
       <nav class="space-x-4">
@@ -31,7 +31,7 @@
   <section id="start" class="text-center py-20 bg-white">
     <h2 class="text-4xl font-bold mb-4">Professionelle Kfz-Teile & Werkzeuge</h2>
     <p class="mb-6">Top Qualität für Werkstatt und Hobby – inspiriert vom Würth Design.</p>
-    <a href="#produkte" class="bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700">Jetzt entdecken</a>
+    <a href="#produkte" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Jetzt entdecken</a>
   </section>
 
   <!-- Kategorien -->
@@ -72,19 +72,19 @@
           <img src="https://m.media-amazon.com/images/I/81x2yS9lJNL._AC_SL1500_.jpg" alt="Werkzeugkiste" class="w-full h-48 object-contain mb-4">
           <h4 class="text-lg font-bold mb-2">Stanley Werkzeugkiste</h4>
           <p class="mb-3 text-sm">Robuste Werkzeugbox mit extra viel Stauraum.</p>
-          <a href="https://www.amazon.de/dp/B001GQ2RWU?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
+          <a href="https://www.amazon.de/dp/B001GQ2RWU?tag=dein-affiliate-id" target="_blank" class="text-blue-600 hover:underline">Jetzt kaufen</a>
         </div>
         <div class="bg-gray-50 p-6 rounded shadow text-center">
           <img src="https://m.media-amazon.com/images/I/71H97HzexPL._AC_SL1500_.jpg" alt="Batterieladegerät" class="w-full h-48 object-contain mb-4">
           <h4 class="text-lg font-bold mb-2">NOCO Genius Batterielader</h4>
           <p class="mb-3 text-sm">Für 6V/12V Batterien mit Überladeschutz.</p>
-          <a href="https://www.amazon.de/dp/B07W8ZVX4J?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
+          <a href="https://www.amazon.de/dp/B07W8ZVX4J?tag=dein-affiliate-id" target="_blank" class="text-blue-600 hover:underline">Jetzt kaufen</a>
         </div>
         <div class="bg-gray-50 p-6 rounded shadow text-center">
           <img src="https://m.media-amazon.com/images/I/71QpN2eCDGL._AC_SL1500_.jpg" alt="Wagenheber" class="w-full h-48 object-contain mb-4">
           <h4 class="text-lg font-bold mb-2">Hydraulischer Wagenheber</h4>
           <p class="mb-3 text-sm">Stabil, langlebig, ideal für jede Garage.</p>
-          <a href="https://www.amazon.de/dp/B07D6SYXP2?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
+          <a href="https://www.amazon.de/dp/B07D6SYXP2?tag=dein-affiliate-id" target="_blank" class="text-blue-600 hover:underline">Jetzt kaufen</a>
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
           <label class="block mb-1 font-semibold" for="message">Nachricht</label>
           <textarea name="message" id="message" rows="5" class="w-full px-4 py-2 rounded border" required></textarea>
         </div>
-        <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">Absenden</button>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Absenden</button>
       </form>
     </div>
   </section>
