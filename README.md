@@ -3,109 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WerkzeugWelt – Kfz-Werkzeuge</title>
+  <title>KFZ Teile Shop – Inspiriert von Würth</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Roboto', sans-serif; }
-    .hero-bg {
-      background: linear-gradient(120deg, #1f2937 0%, #374151 100%);
-    }
-    input, textarea {
-      border: 1px solid #ccc;
-    }
+    .primary-red { background-color: #c20000; }
+    .primary-red-dark { background-color: #a50000; }
+    .category-card:hover { transform: scale(1.02); transition: transform 0.2s ease-in-out; }
   </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="hero-bg text-white shadow-lg">
-    <div class="container mx-auto flex justify-between items-center p-6">
-      <h1 class="text-3xl font-bold">WerkzeugWelt</h1>
-      <nav class="space-x-4 text-lg">
-        <a href="#start" class="hover:text-orange-400">Start</a>
-        <a href="#kategorien" class="hover:text-orange-400">Kategorien</a>
-        <a href="#diagnosegeraete" class="hover:text-orange-400">Diagnosegeräte</a>
-        <a href="#vag" class="hover:text-orange-400">VAG</a>
-        <a href="#audi" class="hover:text-orange-400">Audi</a>
-        <a href="#bmw" class="hover:text-orange-400">BMW</a>
-        <a href="#zubehoer" class="hover:text-orange-400">Werkstatt Zubehör</a>
-        <a href="#ratgeber" class="hover:text-orange-400">Ratgeber</a>
-        <a href="#kontakt" class="hover:text-orange-400">Kontakt</a>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="primary-red text-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold uppercase">KFZ Teile Shop</h1>
+      <nav class="space-x-4">
+        <a href="#start" class="hover:underline">Start</a>
+        <a href="#produkte" class="hover:underline">Produkte</a>
+        <a href="#kategorien" class="hover:underline">Kategorien</a>
+        <a href="#kontakt" class="hover:underline">Kontakt</a>
       </nav>
     </div>
   </header>
 
+  <!-- Hero -->
   <section id="start" class="text-center py-20 bg-white">
-    <h2 class="text-5xl font-bold mb-4 text-gray-900">Die besten Kfz-Werkzeuge 2025</h2>
-    <p class="text-lg mb-6">Finde das perfekte Werkzeug für deine Garage – getestet und empfohlen!</p>
-    <a href="#kategorien" class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600">Jetzt entdecken</a>
+    <h2 class="text-4xl font-bold mb-4">Professionelle Kfz-Teile & Werkzeuge</h2>
+    <p class="mb-6">Top Qualität für Werkstatt und Hobby – inspiriert vom Würth Design.</p>
+    <a href="#produkte" class="bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700">Jetzt entdecken</a>
   </section>
 
-  <section id="kategorien" class="py-16 bg-gray-50">
+  <!-- Kategorien -->
+  <section id="kategorien" class="py-16 bg-gray-100">
     <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-10 text-center">Kategorien</h3>
-      <div class="flex justify-center flex-wrap gap-6 text-center">
-        <a href="#diagnosegeraete" class="bg-white px-6 py-3 rounded shadow hover:bg-orange-100">Diagnosegeräte</a>
-        <a href="#vag" class="bg-white px-6 py-3 rounded shadow hover:bg-orange-100">VAG Werkzeuge</a>
-        <a href="#audi" class="bg-white px-6 py-3 rounded shadow hover:bg-orange-100">Audi Werkzeuge</a>
-        <a href="#bmw" class="bg-white px-6 py-3 rounded shadow hover:bg-orange-100">BMW Werkzeuge</a>
-        <a href="#zubehoer" class="bg-white px-6 py-3 rounded shadow hover:bg-orange-100">Werkstatt Zubehör</a>
+      <h3 class="text-3xl font-bold text-center mb-10">Unsere Kategorien</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow category-card">
+          <h4 class="text-xl font-semibold mb-2">Diagnosegeräte</h4>
+          <p>Professionelle Geräte zur Fahrzeugdiagnose für alle Marken.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow category-card">
+          <h4 class="text-xl font-semibold mb-2">Spezialwerkzeuge für VAG</h4>
+          <p>Herstellerspezifisches Werkzeug für VW, Audi, Seat, Skoda.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow category-card">
+          <h4 class="text-xl font-semibold mb-2">BMW Spezialwerkzeug</h4>
+          <p>Werkzeuglösungen für alle BMW Motoren und Baureihen.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow category-card">
+          <h4 class="text-xl font-semibold mb-2">Audi Spezialwerkzeug</h4>
+          <p>Präzisionswerkzeug für Audi Fahrzeuge – auch für neue Modelle.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow category-card">
+          <h4 class="text-xl font-semibold mb-2">Werkstattzubehör</h4>
+          <p>Alles von Werkzeugwagen über Wagenheber bis Ladegeräte.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Vorheriger Content bleibt erhalten -->
-
-  <section id="zubehoer" class="py-16 bg-white">
+  <!-- Beispiel-Produkte -->
+  <section id="produkte" class="py-16 bg-white">
     <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-10 text-center">Werkstatt Zubehör</h3>
+      <h3 class="text-3xl font-bold text-center mb-10">Empfohlene Produkte</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+        <div class="bg-gray-50 p-6 rounded shadow text-center">
           <img src="https://m.media-amazon.com/images/I/81x2yS9lJNL._AC_SL1500_.jpg" alt="Werkzeugkiste" class="w-full h-48 object-contain mb-4">
-          <h4 class="text-xl font-semibold mb-2">Stanley Werkzeugkiste</h4>
-          <p class="mb-3">Robuste Box mit viel Stauraum für alle Werkzeuge.</p>
-          <a href="https://www.amazon.de/dp/B001GQ2RWU?tag=dein-affiliate-id" class="text-orange-600 hover:underline" target="_blank">Bei Amazon ansehen</a>
+          <h4 class="text-lg font-bold mb-2">Stanley Werkzeugkiste</h4>
+          <p class="mb-3 text-sm">Robuste Werkzeugbox mit extra viel Stauraum.</p>
+          <a href="https://www.amazon.de/dp/B001GQ2RWU?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+        <div class="bg-gray-50 p-6 rounded shadow text-center">
           <img src="https://m.media-amazon.com/images/I/71H97HzexPL._AC_SL1500_.jpg" alt="Batterieladegerät" class="w-full h-48 object-contain mb-4">
-          <h4 class="text-xl font-semibold mb-2">NOCO Genius Ladegerät</h4>
-          <p class="mb-3">Intelligentes Batterieladegerät für 6V und 12V Batterien.</p>
-          <a href="https://www.amazon.de/dp/B07W8ZVX4J?tag=dein-affiliate-id" class="text-orange-600 hover:underline" target="_blank">Bei Amazon ansehen</a>
+          <h4 class="text-lg font-bold mb-2">NOCO Genius Batterielader</h4>
+          <p class="mb-3 text-sm">Für 6V/12V Batterien mit Überladeschutz.</p>
+          <a href="https://www.amazon.de/dp/B07W8ZVX4J?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+        <div class="bg-gray-50 p-6 rounded shadow text-center">
           <img src="https://m.media-amazon.com/images/I/71QpN2eCDGL._AC_SL1500_.jpg" alt="Wagenheber" class="w-full h-48 object-contain mb-4">
-          <h4 class="text-xl font-semibold mb-2">Hydraulischer Wagenheber</h4>
-          <p class="mb-3">Stabiler Rangierwagenheber für sicheres Arbeiten am Fahrzeug.</p>
-          <a href="https://www.amazon.de/dp/B07D6SYXP2?tag=dein-affiliate-id" class="text-orange-600 hover:underline" target="_blank">Bei Amazon ansehen</a>
+          <h4 class="text-lg font-bold mb-2">Hydraulischer Wagenheber</h4>
+          <p class="mb-3 text-sm">Stabil, langlebig, ideal für jede Garage.</p>
+          <a href="https://www.amazon.de/dp/B07D6SYXP2?tag=dein-affiliate-id" target="_blank" class="text-red-600 hover:underline">Jetzt kaufen</a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Kontaktformular -->
   <section id="kontakt" class="py-16 bg-gray-100">
     <div class="container mx-auto max-w-xl">
       <h3 class="text-3xl font-bold text-center mb-6">Kontakt</h3>
-      <form class="bg-white p-6 rounded shadow space-y-4" action="mailto:niehausleon@gmail.com" method="POST" enctype="text/plain">
+      <form action="mailto:niehausleon@gmail.com" method="POST" enctype="text/plain" class="bg-white p-6 rounded shadow space-y-4">
         <div>
-          <label for="name" class="block mb-1 font-semibold">Name</label>
-          <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded" required>
+          <label class="block mb-1 font-semibold" for="name">Name</label>
+          <input type="text" name="name" id="name" class="w-full px-4 py-2 rounded border" required>
         </div>
         <div>
-          <label for="email" class="block mb-1 font-semibold">E-Mail</label>
-          <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded" required>
+          <label class="block mb-1 font-semibold" for="email">E-Mail</label>
+          <input type="email" name="email" id="email" class="w-full px-4 py-2 rounded border" required>
         </div>
         <div>
-          <label for="message" class="block mb-1 font-semibold">Nachricht</label>
-          <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 rounded" required></textarea>
+          <label class="block mb-1 font-semibold" for="message">Nachricht</label>
+          <textarea name="message" id="message" rows="5" class="w-full px-4 py-2 rounded border" required></textarea>
         </div>
-        <button type="submit" class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600">Absenden</button>
+        <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">Absenden</button>
       </form>
     </div>
   </section>
 
-  <footer class="bg-gray-900 text-white py-6 mt-10">
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-10">
     <div class="container mx-auto text-center">
-      <p class="mb-2">&copy; 2025 WerkzeugWelt – Alle Rechte vorbehalten.</p>
-      <p class="text-sm">Diese Seite nutzt Partnerlinks zu Amazon. Als Amazon-Partner verdiene ich an qualifizierten Käufen.</p>
+      <p class="mb-2">&copy; 2025 KFZ Teile Shop – Alle Rechte vorbehalten.</p>
+      <p class="text-sm">Diese Seite enthält Affiliate-Links zu Amazon. Als Amazon-Partner verdiene ich an qualifizierten Käufen.</p>
     </div>
   </footer>
 </body>
