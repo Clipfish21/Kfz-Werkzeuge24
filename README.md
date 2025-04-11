@@ -15,7 +15,7 @@
 </head>
 <body class="bg-gray-50 text-gray-900">
   <!-- Header -->
-  <header class="primary-red text-white shadow-md sticky top-0 z-50">
+  <header class="primary-blue text-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
       <h1 class="text-2xl font-bold uppercase">KFZ Teile Shop</h1>
       <nav class="space-x-4">
