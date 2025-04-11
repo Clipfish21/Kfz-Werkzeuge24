@@ -35,7 +35,7 @@
   </header>
 
   <section id="start" class="text-center py-20 bg-white">
-    <h2 class="text-5xl font-bold mb-4 text-gray-900">Die besten Kfz-Werkzeuge 2024</h2>
+    <h2 class="text-5xl font-bold mb-4 text-gray-900">Die besten Kfz-Werkzeuge 2025</h2>
     <p class="text-lg mb-6">Finde das perfekte Werkzeug für deine Garage – getestet und empfohlen!</p>
     <a href="#kategorien" class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600">Jetzt entdecken</a>
   </section>
