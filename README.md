@@ -20,7 +20,7 @@
 
   <section class="bg-white py-12">
     <div class="container mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-4">Die besten Kfz-Werkzeuge 2024</h2>
+      <h2 class="text-4xl font-bold mb-4">Die besten Kfz-Werkzeuge 2025</h2>
       <p class="mb-6 text-lg">Vergleiche, Tests und Empfehlungen mit Amazon-Partnerlinks.</p>
       <a href="#kategorien" class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600">Jetzt entdecken</a>
     </div>
