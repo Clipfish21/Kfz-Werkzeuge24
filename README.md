@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kfz Werkzeug & Werkstatt Zubehör</title>
+  <title>Kfz Werkzeug & Zubehör</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background: url('/mnt/data/IMG_0858.JPG') no-repeat center center fixed;
+      background: url('https://cdn.pixabay.com/photo/2016/11/21/15/47/auto-1845650_1280.jpg') no-repeat center center fixed;
       background-size: cover;
     }
     .overlay {
